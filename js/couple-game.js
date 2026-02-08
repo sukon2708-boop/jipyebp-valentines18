@@ -103,8 +103,8 @@ function showResult() {
 }
 
 function resultMessage() {
-  if (score === 1) return "เข้ากันได้ดีมาก เหมือนเกิดมาเพื่อกันเลย ";
-  if (score >= 0) return "หวานกำลังดี น่ารักมาก ";
+  if (score === 5) return "เข้ากันได้ดีมาก เหมือนเกิดมาเพื่อกันเลย ";
+  if (score >= 3) return "หวานกำลังดี น่ารักมาก ";
   return "ความรักไม่ได้วัดที่คะแนน แต่หัวใจ ";
 }
 
